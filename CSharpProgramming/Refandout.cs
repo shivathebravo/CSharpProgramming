@@ -12,6 +12,14 @@ namespace CSharpProgramming
   /// </summary>
   public  class Refandout
     {
-      
+      public  void OutMethod(out string outString)
+      {
+          outString = "THis is the new outstring value";
+      }
+
+      public  void refMethod(ref string refString)
+      {
+          refString = "This is referenceMethod string";
+      }
     }
 }
